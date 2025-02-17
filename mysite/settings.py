@@ -132,4 +132,4 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
 ]
 
-ALLOWED_HOSTS = ['django-env-v3.eba-t9uwximu.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['django-env-4.eba-t9uwximu.us-east-1.elasticbeanstalk.com']
