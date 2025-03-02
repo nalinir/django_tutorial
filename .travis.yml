@@ -16,6 +16,6 @@ deploy:
   secret_access_key:
     secure: "EmS1fiQnI7HTwgU5jVuXiX6B480sIQ5f57ZFs7wI9Pxs4I99LldC2hEbdA/Ex4CT3kLqsHJH2Yh08XHCbAuPnAnLq6Vf92Ud9zbAPbO6vYBwpyiD8zr0emKKLlyz967rhcHgqseH+M9nNB/TySJ+cZ16Lh+N0Ptau68pV+tSuSfgaQylcXgXoQJPZME3tDN9OFhWbcvMvW5nLg4S/keRla92NQW1GuuwEm16Fmdi336YurcwQgiUho7s0IrcDHE1+9ba16lWN0rOM3z6XsHM3v07fKG0KRWE2Wg8QiYa4bAg06/hxpLoVd2oAoDpDl2g46AGX35fuEZLqAFLzheAtBBlQ2pE2fRcR0jr4vV9rpXgdfnHeH+qbnYWnmPckF5s44qoNgHqLeqCV8Uwnn93it+7apYC3AqetLJ6u+UxhBrBxszx3Rw0Frn+Knin7DfSbs7x83jKiYbMY4OtFT0+6YEwXRFnYjbWfCBuBHM8q+ckPNTPXePQX7IR1/03/oKGtMgfBOPjTISC/pWK7gCQBxL7lX5neO7+SHUn67yKJnZ9MrCQ3/rpv0+6Cb7qFsbKy6Ktx3QSBxIPU6hBrN8mhpuHLoYxX6ZBqr5aJ4Ots8SmwzfnEFa8oG56ZHgF/Q5oDGbUj1VTVqjF2Q6fIMAa7mvoufbajfKB963w4dQdQCU="
   region: "us-east-1"
-  app: "example-app-name"
-  env: "example-app-environment"
-  bucket_name: "the-target-S3-bucket"
+  app: "django-tutorial"
+  env: "Django-tutorial-env"
+  bucket_name: "elasticbeanstalk-us-east-1-559050211896"
