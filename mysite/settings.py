@@ -134,5 +134,5 @@ INSTALLED_APPS = [
 
 ALLOWED_HOSTS = [
     "django-tutorial-env.eba-t9uwximu.us-east-1.elasticbeanstalk.com",
-    "127.0.0.1",
+    # "127.0.0.1",
 ]
