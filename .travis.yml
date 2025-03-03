@@ -12,7 +12,7 @@ script:
   - coverage run manage.py test
 
 after_script:
-  - coveralls
+  - coveralls --service=travis-pro
 
 deploy:
   provider: elasticbeanstalk
@@ -24,3 +24,7 @@ deploy:
   app: "django-tutorial"
   env: "Django-tutorial-env"
   bucket_name: "elasticbeanstalk-us-east-1-559050211896"
+  on:
+    repo: nalinir/django_tutorial
+    branch: main
+  skip_cleanup: 'true'  
